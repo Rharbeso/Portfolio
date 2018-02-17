@@ -1,0 +1,141 @@
+.Ad{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border: #ccc 0.5px solid;
+    overflow: hidden;
+    box-shadow: #ccc 4px 3px 4px;
+    margin: 0 auto;
+    border: 1px red solid;
+}
+
+.bg{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+    background: url('../images/sonic.jpg') no-repeat;
+    animation: bg 4s ease-in-out alternate infinite;
+    -o-animation: bg 4s ease-in-out alternate infinite;
+    -moz-animation: bg 4s ease-in-out alternate infinite;
+    -ms-animation: bg 4s ease-in-out alternate infinite;
+    -webkit-animation: bg 4s ease-in-out alternate infinite;
+}
+
+.logo{
+    position: absolute;
+    overflow: hidden;
+    background: url('../images/logo.png')no-repeat;
+    width: 25%;
+    height: 25%;
+    top: 10px;
+    left: 10px;
+    background-size: contain;
+}
+
+.par{
+    position: relative;
+    padding: 10px;
+    color: yellow;
+   font-size: 20px;
+    text-align: center;
+    text-shadow: 4px 3px 4px rgb(156, 61, 6);
+    font-weight: bolder;
+}
+.content1{
+        position: relative;
+        padding: 10px;
+        color: yellow;
+        font-size: 30px;
+        text-align: center;
+        text-shadow: 4px 3px 4px rgb(156, 61, 6);
+        font-weight: bolder;
+        padding-top: 45px;
+    }
+.box{
+    position: absolute;
+    bottom: -200px;
+    left: -110px;
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    transform: rotate(88deg);
+    opacity: 0.3;
+    pointer-events: none;
+    animation: box 2s ease-in-out forwards;
+    -o-animation: box 2s ease-in-out forwards;
+    -moz-animation: box 2s ease-in-out forwards;
+    -ms-animation: box 2s ease-in-out forwards;
+    -webkit-animation: box 2s ease-in-out forwards;
+}
+
+
+
+    .cta{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 75%;
+    text-align: center;
+    background-color: yellow;
+    padding: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px red;
+    margin-left: 28px;
+}
+.cta:hover{
+    background-color: red;
+}
+
+@keyframes bg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+
+@-o-keyframes bg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+
+@-moz-keyframes bg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+
+@-ms-keyframes bg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+
+@-webkit-keyframes bg {
+    0% {left: 0px}
+    100% {left: -300px}
+}
+
+@keyframes box {
+    0% {bottom: -250px}
+    100% {bottom: -450px}
+}
+
+@-o-keyframes box {
+    0% {bottom: -250px}
+    100% {bottom: -450px}
+}
+
+@-moz-keyframes box {
+    0% {bottom: -250px}
+    100% {bottom: -450px}
+}
+
+@-ms-keyframes box {
+    0% {bottom: -250px}
+    100% {bottom: -450px}
+}
+
+@-webkit-keyframes box {
+    0% {bottom: -250px}
+    100% {bottom: -450px}
+}
