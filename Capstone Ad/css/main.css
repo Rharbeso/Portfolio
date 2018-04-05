@@ -1,0 +1,152 @@
+.main{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: #000 1px solid;
+    box-shadow: #000 3px 2px 3px;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.one{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    background:url('../images/world-of-warcraft.jpg')no-repeat;
+    filter: blur(5px);
+    -ms-filter: blur(5px);
+    animation: one ease-in 2s both;
+    -o-animation: one 2s ease-in-out both;
+    -webkit-animation: one 2s ease-in-out both;
+    -moz-animation: one 2s ease-in-out both;
+    -ms-animation: one 2s ease-in-out both;
+}
+
+ @keyframes one{
+        from{filter: blur(5px);}
+        to{filter: blur(0px);}
+}
+
+.two{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin-top: 150px;
+    background: url('../images/varian.png')no-repeat;
+    filter: blur(5px);
+    -ms-filter: blur(5px);
+    animation: two ease-in 3s both;
+    -o-animation: two 3s ease-in-out both;
+    -webkit-animation: two 3s ease-in-out both;
+    -moz-animation: two 3s ease-in-out both;
+    -ms-animation: two 3s ease-in-out both;
+}
+
+ @keyframes two{
+        from{filter: blur(5px);}
+        to{filter: blur(0px);}
+}
+
+.three{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    bottom: 0px;
+    right: 0px;
+    background: url('../images/illidan.png')no-repeat;
+    filter: blur(5px);
+    -ms-filter: blur(5px);
+    animation: three ease-in 3s both;
+    -o-animation: three 3s ease-in-out both;
+    -webkit-animation: three 3s ease-in-out both;
+    -moz-animation: three 3s ease-in-out both;
+    -ms-animation: three 3s ease-in-out both;
+}
+
+ @keyframes three{
+        from{filter: blur(5px);}
+        to{filter: blur(0px);}
+}
+
+.logo{
+    position: absolute;
+    width: 275px;
+    height:225px;
+    margin-top: -185px;
+    margin-left: 250px;
+    background: url('../images/wowlogo.png')no-repeat;
+    animation: logo 3s ease-in;
+    -o-animation: logo 3s ease-in;
+    -webkit-animation: logo 3s ease-in;
+    -moz-animation: logo 3s ease-in;
+    -ms-animation: logo 3s ease-in;
+} 
+
+@keyframes logo {
+    0% {right: 0px}
+    100% {right: 275px}
+}
+
+.holder{
+    position: absolute;
+    height: 30px;
+    width: 505px;
+    top: 10px;
+    left: 145px;
+    background-color: #b1aea780;
+    color: rgb(26, 10, 100);
+    border: solid 1.5px rgb(26, 10, 100);
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    /* text-shadow: 4px 3px 4px rgb(245, 245, 245); */
+    font-weight: bolder;
+    filter: blur(5px);
+    -ms-filter: blur(5px);
+    animation: holder ease-in 3s both;
+    -o-animation: holder 3s ease-in-out both;
+    -webkit-animation: holder 3s ease-in-out both;
+    -moz-animation: holder 3s ease-in-out both;
+    -ms-animation: holder 3s ease-in-out both;
+}
+
+@keyframes holder{
+    from{filter: blur(5px);}
+    to{filter: blur(0px);}
+}
+
+.cta{
+    position: absolute;
+    top: 290px;
+    left: 295px;
+    width: 215px;
+    text-align: center;
+    background-color: #857ea029;
+    padding: 10px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border: 1.5px solid rgb(230, 193, 65);
+    border-radius: 25px;
+    animation: cta 3s ease-in;
+    -o-animation: cta 3s ease-in;
+    -webkit-animation: cta 3s ease-in;
+    -moz-animation: cta 3s ease-in;
+    -ms-animation: cta 3s ease-in;
+}
+
+@keyframes cta {
+    0% {left: 0px}
+    100% {left: 295px}
+}
+
+.cta:hover{
+    background-color: rgba(151, 147, 147, 0.493);
+    
+}
+
+a{
+    font-size: 20px;
+    color: rgba(221, 191, 19, 0.952);
+}
