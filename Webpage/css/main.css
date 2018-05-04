@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(105, 95, 97) !important;
+}
+
+.monkey{
+    color: rgb(212, 201, 34) !important;
+    font-weight: bolder;
+}
+
+.navbar-brand{
+    color: rgb(212, 201, 34) !important;
+}
+
+.main{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: rgb(212, 201, 34);
+    border: 1px solid rgb(105, 95, 97);
+}
+
+h1{
+    color:rgb(105, 95, 97);  
+    text-align: center;
+}
+
+.con{
+
+}

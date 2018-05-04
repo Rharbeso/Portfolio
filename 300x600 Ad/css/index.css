@@ -2,7 +2,7 @@
     position: relative;
     width: 300px;
     height: 600px;
-    border: #ccc 0.5px solid;
+    /* border: #ccc 0.5px solid; */
     overflow: hidden;
     box-shadow: #ccc 4px 3px 4px;
     margin: 0 auto;

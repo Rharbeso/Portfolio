@@ -1,0 +1,44 @@
+.form{
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 900px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.fn,
+.ln,
+.a1,
+.a2,
+.city,
+.state,
+.zip,
+.phone,
+.submit{
+    border: 1px solid pink;
+    padding: 5px;
+    font-weight: bold;
+}
+
+[required]:focus{
+    background-color: rgb(220, 20, 203);
+}
+
+.title{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(220, 20, 203);
+}
+
+::placeholder{
+    color: black;
+}
+
+.submit{
+    background-color: rgb(220, 20, 203); 
+    width: 100px;
+}
+

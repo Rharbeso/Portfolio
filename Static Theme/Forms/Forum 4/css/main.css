@@ -1,0 +1,65 @@
+/*CSS Ids Classs Selectors*/
+.form{
+    margin: 0 auto;
+    position: relative;
+    padding: 10px;
+    border: none;
+    height: 1035px;
+    width: 625px;
+    overflow: hidden;
+    border: none;
+    background-color: #288098;
+}
+
+h3{
+    text-align: center;
+    padding-top: 95px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+label{  
+    visibility: hidden;
+}
+
+.fn,
+.un,
+.email,
+.pw,
+.con-pw {
+    width: 80%;
+    position: relative;
+    height: 50px;
+    margin: 30px 10%;  
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    width: 75%;
+    margin: 0 12.5%;
+    padding: 15px;
+    margin-top: 45px;
+    background-color: rgba(88, 121, 226, 0.89);
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.b2{
+    background-color: #125e7e;
+    position: absolute;
+    top: 0px;
+    left: 42px;
+    width: 625px;
+    opacity: 0.3;
+    pointer-events: none;
+    transform: rotate(33.5deg);
+    height: 2000px;
+}
+
+
+
+

@@ -1,0 +1,86 @@
+.Ad{
+    position: relative;
+    width: 728px;
+    height: 90px;
+    border: rgb(0, 0, 0) 0.5px solid;
+    overflow: hidden;
+    box-shadow: #ccc 4px 3px 4px;
+    margin: 0 auto;
+    border: 5px #000;
+}
+.bg{
+    position: absolute;
+    width: 1456px;
+    height: 90px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    background: url('../Images/WoWlogo.jpg') no-repeat;
+    animation: bg 4s ease-in-out alternate infinite;
+    -o-animation: bg 4s ease-in-out alternate infinite;
+    -moz-animation: bg 4s ease-in-out alternate infinite;
+    -ms-animation: bg 4s ease-in-out alternate infinite;
+    -webkit-animation: bg 4s ease-in-out alternate infinite;
+}
+.logo{
+    position: absolute;
+    overflow: hidden;
+    background: url('../Images/alliance logo.png')no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 10px;
+    background-size: contain;
+}
+.logo2{
+    position: absolute;
+    overflow: hidden;
+    background: url('../Images/horde logo.png')no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 660px;
+    background-size: contain;
+}
+.cta{
+    position: absolute;
+    bottom: 10px;
+    left: 225px;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(204, 186, 24, 0.699);
+    padding: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px rgba(255, 255, 0, 0.178);
+    border-radius: 25px;
+}
+.cta:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+@keyframes bg {
+    0% {left: 0px}
+    100% {left: -728px}
+}
+
+@-o-keyframes bg {
+    0% {left: 0px}
+    100% {left: -728px}
+}
+
+@-moz-keyframes bg {
+    0% {left: 0px}
+    100% {left: -728px}
+}
+
+@-ms-keyframes bg {
+    0% {left: 0px}
+    100% {left: -728px}
+}
+
+@-webkit-keyframes bg {
+    0% {left: 0px}
+    100% {left: -728px}
+}
+
